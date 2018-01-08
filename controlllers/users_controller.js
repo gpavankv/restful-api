@@ -1,6 +1,6 @@
 const User = require('../models/user');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcrypt');
 
 
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
         bcrypt.genSalt(16).then((salt) => {
             bcrypt.hash(userProps.password, salt)
                 .then((hash) => {
-                    console.log(hash);
+                    //console.log(hash);
                     userProps.password = hash;
                     User.create(userProps)
                         .then(() => res.status(201).send({ message: 'User created' }))
