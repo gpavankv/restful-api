@@ -4,7 +4,7 @@ A RESTful API created using [Node.js](https://github.com/nodejs/node), [Express]
 along with [bcryptjs](https://www.npmjs.com/package/bcryptjs) and [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) to implement security features for hashing and authenticaion.
 
 ## Getting Started
-Download the zip file or clone using `git clone https://github.com/gpavankv/olarm-api.git`.
+Download the zip file or clone using `git clone https://github.com/gpavankv/restful-api.git`.
 
 ### Prerequisites
 
